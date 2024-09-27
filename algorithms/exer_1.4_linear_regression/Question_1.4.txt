@@ -1,0 +1,33 @@
+Exercise 1.4 Part I 练习 1.4 第一部分
+
+Iris classification data set is a well-known data set in machine learning.
+
+Iris flower data set. (2020). Wikipedia. Retrieved from https://en.wikipedia.org/wiki/Iris_flower_data_set.
+
+"The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other."
+
+Try developing a linear regression model for binary classification using the step transfer function using the data produced from Iris binary classification case. Use 60 percent of data picked randomly for training and remaining for testing.
+
+Try the approach with all 4 input features, i) without normalising input data, ii) with normalising input data. Report percentage correctly classified in training and test set after fixed number of training time (iterations) using gradient descent.
+
+Carry out 30 experiments for both cases with different initial random seeds. Report mean and standard deviation using the appropriate metrics (accuracy, RMSE or AUC) for your results.
+
+Step function is given below:
+f(x) = { if  x>=0  then x is 0, else 1}
+
+----------------------------------------------------------------------------------------------------
+
+鸢尾花分类数据集是机器学习中一个众所周知的数据集。
+
+“该数据集由来自三种鸢尾花（鸢尾花、鸢尾和花鸢尾）中每一种的 50 个样本组成。从每个样本中测量了四个特征：萼片和花瓣的长度和宽度，以厘米为单位。基于这四个特征的组合，Fisher 开发了一个线性判别模型来区分物种彼此。
+
+尝试使用步长传递函数，使用鸢尾花二元分类案例生成的数据，为二元分类开发线性回归模型。使用随机选取的 60% 数据进行训练，其余用于测试。
+
+尝试使用所有 4 个输入特征的方法，
+i） 不规范化输入数据，
+ii） 规范化输入数据。使用梯度下降法报告在固定训练时间（迭代次数）后在训练集和测试集中正确分类的百分比。
+
+使用不同的初始随机种子对两种情况进行 30 次实验。使用结果的适当指标（准确度、RMSE 或 AUC）报告平均值和标准差。
+
+Step function is given below:
+f(x) = { if  x>=0  then x is 0, else 1}
